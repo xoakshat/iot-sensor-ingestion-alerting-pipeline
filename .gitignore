@@ -1,0 +1,23 @@
+
+# Python environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+
+# Runtime logs
+logs/
+rejected.log
+
+# SQLite database and temporary files
+pipeline.db
+pipeline.db-wal
+pipeline.db-shm
+
+# Environment secrets
+.env
+
+# Editor settings
+.vscode/
